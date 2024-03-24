@@ -1,7 +1,4 @@
-﻿// passing delegate as parameter
-
-
-var im = new InstanceMethod();
+﻿var im = new InstanceMethod();
 MyDelegate del = im.MethodA;
 InvokeDelegate(del);
 del = StaticMethod.MethodB;
@@ -16,7 +13,7 @@ static void InvokeDelegate(MyDelegate myDel)
 class InstanceMethod
 {
      public void MethodA(string message)
-     {A
+     {
         System.Console.WriteLine($"You are calling instance MethodA() with message {message}");
      }
 }
