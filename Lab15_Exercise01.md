@@ -39,6 +39,10 @@ dotnet build  Lab15_Ex01
 
 4.บันทึกผลที่ได้จากการรันคำสั่งในข้อ 3
 
+![1](https://github.com/Siriratda/03376836-OOP-2566-Lab-15/assets/144195995/ac4fda9c-de8b-4daf-854b-287654e8700e)
+
+สามารถ build ได้ แสดงข้อความ "Hello World", "Hello Mars" และ "Hello Saturn" ที่แตกต่างกันตามการเรียกใช้งาน Delegate ผ่านตัวแปร myDel1 และ myDel2 ตามลำดับ
+
 5.Run project โดยการใช้คำสั่ง
 
 ```cmd
@@ -47,4 +51,16 @@ dotnet run --project Lab15_Ex01
 
 6.บันทึกผลที่ได้จากการรันคำสั่งในข้อ 5
 
+![1 1](https://github.com/Siriratda/03376836-OOP-2566-Lab-15/assets/144195995/dfca11d8-e9e6-4a11-af9a-021d66257942)
+
 7.อธิบายสิ่งที่พบในการทดลอง
+
+สามารถ run ได้ แสดงข้อความ "Hello World", "Hello Mars" และ "Hello Saturn" ที่แตกต่างกันตามการเรียกใช้งาน Delegate ผ่านตัวแปร myDel1 และ myDel2 ตามลำดับ
+
+โปรแกรมแสดง
+
+Hello World
+
+Hello Mars
+
+Hello Saturn
