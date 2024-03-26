@@ -45,6 +45,8 @@ dotnet build  Lab15_Ex02
 
 4.บันทึกผลที่ได้จากการรันคำสั่งในข้อ 3
 
+<img width="538" alt="image" src="https://github.com/chatladawongkanyon/03376836-OOP-2566-Lab-15/assets/144195963/0bddf360-947b-4d0d-99bf-a32685ebf820">
+
 5.Run project โดยการใช้คำสั่ง
 
 ```cmd
@@ -53,4 +55,12 @@ dotnet run --project Lab15_Ex02
 
 6.บันทึกผลที่ได้จากการรันคำสั่งในข้อ 5
 
+<img width="451" alt="image" src="https://github.com/chatladawongkanyon/03376836-OOP-2566-Lab-15/assets/144195963/1b909c2a-832b-4093-a747-fbe8fa1082cb">
+
 7.อธิบายสิ่งที่พบในการทดลอง
+
+โปรแกรมแสดง
+
+You are calling instance MethodA() with message Hello World
+
+You are calling static MethodB() with message Hello Moon
