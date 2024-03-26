@@ -31,6 +31,8 @@ dotnet build  Lab15_Ex07
 
 4.บันทึกผลที่ได้จากการรันคำสั่งในข้อ 3
 
+<img width="411" alt="image" src="https://github.com/chatladawongkanyon/03376836-OOP-2566-Lab-15/assets/144195963/d95ceab8-1064-42da-8b2b-5b52670ffd08">
+
 5.Run project โดยการใช้คำสั่ง
 
 ```cmd
@@ -39,4 +41,10 @@ dotnet run --project Lab15_Ex07
 
 6.บันทึกผลที่ได้จากการรันคำสั่งในข้อ 5
 
+<img width="461" alt="image" src="https://github.com/chatladawongkanyon/03376836-OOP-2566-Lab-15/assets/144195963/7aee7b52-ddf5-4354-bdc5-11d1ca9bb5dc">
+
 7.อธิบายสิ่งที่พบในการทดลอง
+
+โปรแกรมแสดง
+
+Square value of 9 is 81
