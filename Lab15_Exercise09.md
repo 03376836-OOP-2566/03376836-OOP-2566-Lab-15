@@ -46,6 +46,12 @@ dotnet build  Lab15_Ex09
 
 4.บันทึกผลที่ได้จากการรันคำสั่งในข้อ 3
 
+![9](https://github.com/Siriratda/03376836-OOP-2566-Lab-15/assets/144195995/6cea3355-937a-4cea-8e6b-24a0d2ce59ca)
+
+การแสดงข้อความ "Hello World" จากการเรียกใช้งาน Action a
+การแสดงผลรวมของตัวเลข 4, 5, และ 6 จากการเรียกใช้งาน Action s
+การแสดงผลรวมของตัวเลข 8 และ 2 จากการเรียกใช้งาน Action sum โดยใช้ Lambda Expression
+
 5.Run project โดยการใช้คำสั่ง
 
 ```cmd
@@ -54,4 +60,18 @@ dotnet run --project Lab15_Ex09
 
 6.บันทึกผลที่ได้จากการรันคำสั่งในข้อ 5
 
+![9 1](https://github.com/Siriratda/03376836-OOP-2566-Lab-15/assets/144195995/ba534daf-93ec-4115-aa3e-a1bb67580c83)
+
 7.อธิบายสิ่งที่พบในการทดลอง
+
+การแสดงข้อความ "Hello World" จากการเรียกใช้งาน Action a
+การแสดงผลรวมของตัวเลข 4, 5, และ 6 จากการเรียกใช้งาน Action s
+การแสดงผลรวมของตัวเลข 8 และ 2 จากการเรียกใช้งาน Action sum โดยใช้ Lambda Expression
+
+โปรแกรมแสดง
+
+Hello World
+
+sum = 15
+
+result = 10
