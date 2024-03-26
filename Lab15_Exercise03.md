@@ -54,6 +54,10 @@ dotnet build  Lab15_Ex03
 
 4.บันทึกผลที่ได้จากการรันคำสั่งในข้อ 3
 
+![3](https://github.com/Siriratda/03376836-OOP-2566-Lab-15/assets/144195995/8cb3de60-0025-42c7-a9bd-fac03c179532)
+
+แก้ไขแล้ว ไม่สามารถ build ได้ เนื่องจากมีข้อผิดพลาดใน class InstanceMethod
+
 5.Run project โดยการใช้คำสั่ง
 
 ```cmd
@@ -62,4 +66,16 @@ dotnet run --project Lab15_Ex03
 
 6.บันทึกผลที่ได้จากการรันคำสั่งในข้อ 5
 
+![3 1](https://github.com/Siriratda/03376836-OOP-2566-Lab-15/assets/144195995/bd781b98-1dcb-492f-9dd8-855ff07f9d1f)
+
 7.อธิบายสิ่งที่พบในการทดลอง
+
+แก้ไขแล้ว แสดงข้อความ "You are calling instance MethodA() with message Hello World" และ "You are calling static MethodB() with message Hello Moon" ตามลำดับ และ "You are calling anonymous method with message Hello World" ซึ่งเป็นผลลัพธ์จากการเรียกใช้งาน delegate ที่ถูกกำหนดเมทอดเป้าหมายต่างกันและ anonymous method
+
+โปรแกรมแสดง
+
+You are calling instance MethodA() with message Hello World
+
+You are calling static MethodB() with message Hello World
+
+You are calling anonymous method with message Hello World
