@@ -54,6 +54,8 @@ dotnet build  Lab15_Ex03
 
 4.บันทึกผลที่ได้จากการรันคำสั่งในข้อ 3
 
+<img width="563" alt="image" src="https://github.com/chatladawongkanyon/03376836-OOP-2566-Lab-15/assets/144195963/aacddfda-7f7d-45cb-b8cd-91e038e7e138">
+
 5.Run project โดยการใช้คำสั่ง
 
 ```cmd
@@ -62,4 +64,14 @@ dotnet run --project Lab15_Ex03
 
 6.บันทึกผลที่ได้จากการรันคำสั่งในข้อ 5
 
+<img width="452" alt="image" src="https://github.com/chatladawongkanyon/03376836-OOP-2566-Lab-15/assets/144195963/26de3ac6-7de0-4049-970f-06e23bf12c13">
+
 7.อธิบายสิ่งที่พบในการทดลอง
+
+โปรแกรมแสดง
+
+You are calling instance MethodA() with message Hello World
+
+You are calling static MethodB() with message Hello World
+
+You are calling anonymous method with message Hello World
