@@ -39,6 +39,8 @@ dotnet build  Lab15_Ex01
 
 4.บันทึกผลที่ได้จากการรันคำสั่งในข้อ 3
 
+<img width="498" alt="image" src="https://github.com/chatladawongkanyon/03376836-OOP-2566-Lab-15/assets/144195963/c6eefe2e-50ee-45ba-9560-4927bbbe366e">
+
 5.Run project โดยการใช้คำสั่ง
 
 ```cmd
@@ -47,4 +49,13 @@ dotnet run --project Lab15_Ex01
 
 6.บันทึกผลที่ได้จากการรันคำสั่งในข้อ 5
 
+<img width="433" alt="image" src="https://github.com/chatladawongkanyon/03376836-OOP-2566-Lab-15/assets/144195963/5a2d590c-d28b-4db3-a499-7b055cf96ac5">
+
 7.อธิบายสิ่งที่พบในการทดลอง
+โปรแกรมแสดง
+
+Hello World
+
+Hello Mars
+
+Hello Saturn
