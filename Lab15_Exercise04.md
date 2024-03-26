@@ -60,6 +60,10 @@ dotnet build  Lab15_Ex04
 
 4.บันทึกผลที่ได้จากการรันคำสั่งในข้อ 3
 
+![4](https://github.com/Siriratda/03376836-OOP-2566-Lab-15/assets/144195995/1a930732-92b9-4c38-adc4-739d5e1e06be)
+
+เรียกใช้งาน delegate และเมทอดต่างๆ ที่เรากำหนดให้กับตัวแปร delegate และสร้างการเชื่อมต่อระหว่างเมทอดได้อย่างสมบูรณ์
+
 5.Run project โดยการใช้คำสั่ง
 
 ```cmd
@@ -68,4 +72,21 @@ dotnet run --project Lab15_Ex04
 
 6.บันทึกผลที่ได้จากการรันคำสั่งในข้อ 5
 
+![4 1](https://github.com/Siriratda/03376836-OOP-2566-Lab-15/assets/144195995/50efce1a-f5ca-4d65-b45e-b03cd7b68488)
+
 7.อธิบายสิ่งที่พบในการทดลอง
+แสดงข้อความ "You are calling instance MethodA() with message Hello world", "You are calling static MethodB() with message Hello world", "You are calling anonymous method with message Hello world" และ "You are calling static MethodB() with message Hello world" ตามลำดับ โดยผลลัพธ์นี้เป็นการเรียกใช้งาน delegate และเมทอดต่างๆ ที่เรากำหนดให้กับตัวแปร delegate และสร้างการเชื่อมต่อระหว่างเมทอดได้อย่างสมบูรณ์
+
+โปรแกรมแสดง
+
+imdel + smdel
+
+You are calling instance MethodA() with message Hello world You are calling static MethodB() with message Hello world
+imdel + smdel + amdel You are calling instance MethodA() with message Hello world You are calling static MethodB() with message Hello world You are 
+calling anonymous method with message Hello world
+
+del -= imdel
+
+You are calling static MethodB() with message Hello world
+
+You are calling anonymous method with message Hello world
