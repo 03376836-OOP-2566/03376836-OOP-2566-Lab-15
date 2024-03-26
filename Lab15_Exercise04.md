@@ -60,6 +60,8 @@ dotnet build  Lab15_Ex04
 
 4.บันทึกผลที่ได้จากการรันคำสั่งในข้อ 3
 
+<img width="704" alt="image" src="https://github.com/chatladawongkanyon/03376836-OOP-2566-Lab-15/assets/144195963/75e849c0-1162-4b3d-9370-6b3a0f9f2dbc">
+
 5.Run project โดยการใช้คำสั่ง
 
 ```cmd
@@ -68,4 +70,20 @@ dotnet run --project Lab15_Ex04
 
 6.บันทึกผลที่ได้จากการรันคำสั่งในข้อ 5
 
+<img width="392" alt="image" src="https://github.com/chatladawongkanyon/03376836-OOP-2566-Lab-15/assets/144195963/18a57768-ffcb-45b0-b82c-324d6a0590f2">
+
 7.อธิบายสิ่งที่พบในการทดลอง
+
+โปรแกรมแสดง
+
+imdel + smdel
+
+You are calling instance MethodA() with message Hello world You are calling static MethodB() with message Hello world
+
+imdel + smdel + amdel You are calling instance MethodA() with message Hello world You are calling static MethodB() with message Hello world You are calling anonymous method with message Hello world
+
+del -= imdel
+
+You are calling static MethodB() with message Hello world
+
+You are calling anonymous method with message Hello world
