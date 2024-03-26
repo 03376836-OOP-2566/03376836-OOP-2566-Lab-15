@@ -45,6 +45,10 @@ dotnet build  Lab15_Ex05
 
 4.บันทึกผลที่ได้จากการรันคำสั่งในข้อ 3
 
+![5](https://github.com/Siriratda/03376836-OOP-2566-Lab-15/assets/144195995/1ff77c6f-844e-4d08-a205-f1c08ac1b139)
+
+การเรียกใช้งานเมทอด NumericSum และ StringConcat ผ่าน Generic Delegate sum และ con ตามลำดับ โดยผลลัพธ์นี้จะแสดงผลลัพธ์ของการบวกเลขและการต่อข้อความตามลำดับ
+
 5.Run project โดยการใช้คำสั่ง
 
 ```cmd
@@ -53,4 +57,14 @@ dotnet run --project Lab15_Ex05
 
 6.บันทึกผลที่ได้จากการรันคำสั่งในข้อ 5
 
+![5 1](https://github.com/Siriratda/03376836-OOP-2566-Lab-15/assets/144195995/08c867c8-1ecb-4b0e-b096-ad9046f94b36)
+
 7.อธิบายสิ่งที่พบในการทดลอง
+
+การเรียกใช้งานเมทอด NumericSum และ StringConcat ผ่าน Generic Delegate sum และ con ตามลำดับ โดยผลลัพธ์นี้จะแสดงผลลัพธ์ของการบวกเลขและการต่อข้อความตามลำดับ
+
+โปรแกรมแสดง
+
+Numeric sum of 30 and 50 is 80
+
+String concatenate of 'hello' and 'World' is "hello World"
