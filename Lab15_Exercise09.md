@@ -46,6 +46,8 @@ dotnet build  Lab15_Ex09
 
 4.บันทึกผลที่ได้จากการรันคำสั่งในข้อ 3
 
+<img width="472" alt="image" src="https://github.com/chatladawongkanyon/03376836-OOP-2566-Lab-15/assets/144195963/2b362481-dab0-4b6e-a860-0bd9c211ad5d">
+
 5.Run project โดยการใช้คำสั่ง
 
 ```cmd
@@ -54,4 +56,14 @@ dotnet run --project Lab15_Ex09
 
 6.บันทึกผลที่ได้จากการรันคำสั่งในข้อ 5
 
+<img width="441" alt="image" src="https://github.com/chatladawongkanyon/03376836-OOP-2566-Lab-15/assets/144195963/2202ed0d-8638-4613-a455-7f7ebcf5fc93">
+
 7.อธิบายสิ่งที่พบในการทดลอง
+
+โปรแกรมแสดง
+
+Hello World
+
+sum = 15
+
+result = 10
