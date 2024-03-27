@@ -44,6 +44,7 @@ dotnet build  Lab15_Ex05
 ถ้ามีที่ผิดพลาดในโปรแกรม ให้แก้ไขให้ถูกต้อง
 
 4.บันทึกผลที่ได้จากการรันคำสั่งในข้อ 3
+![image](https://github.com/ThanchiraCharakhon099/03376836-OOP-2566-Lab-15/assets/144195708/df73bd8c-8ff6-43ab-ac7d-0f098df3442f)
 
 5.Run project โดยการใช้คำสั่ง
 
@@ -52,5 +53,10 @@ dotnet run --project Lab15_Ex05
 ```
 
 6.บันทึกผลที่ได้จากการรันคำสั่งในข้อ 5
+![image](https://github.com/ThanchiraCharakhon099/03376836-OOP-2566-Lab-15/assets/144195708/f2564f74-5218-433b-a102-ac92aae9c19c)
 
 7.อธิบายสิ่งที่พบในการทดลอง
+
+จากการทดลองพบว่ามีการใช้งาน Generic Delegate ใน C# เพื่อสร้าง Delegate
+
+ที่รับพารามิเตอร์แบบ Generic ที่สามารถใช้งานกับประเภทข้อมูลต่าง ๆ ได้
