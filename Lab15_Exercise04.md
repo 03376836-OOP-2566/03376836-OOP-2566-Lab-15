@@ -59,6 +59,7 @@ dotnet build  Lab15_Ex04
 ถ้ามีที่ผิดพลาดในโปรแกรม ให้แก้ไขให้ถูกต้อง
 
 4.บันทึกผลที่ได้จากการรันคำสั่งในข้อ 3
+![image](https://github.com/ThanchiraCharakhon099/03376836-OOP-2566-Lab-15/assets/144195708/326a944b-853a-4294-ad38-88981d26bca0)
 
 5.Run project โดยการใช้คำสั่ง
 
@@ -67,5 +68,12 @@ dotnet run --project Lab15_Ex04
 ```
 
 6.บันทึกผลที่ได้จากการรันคำสั่งในข้อ 5
+![image](https://github.com/ThanchiraCharakhon099/03376836-OOP-2566-Lab-15/assets/144195708/fe5a0be4-1a9a-47c9-8386-aab37ae0c87e)
 
 7.อธิบายสิ่งที่พบในการทดลอง
+
+จากาการทดลองมีการใช้งาน Delegate ใน C# เพื่อแสดงการทำงานของการบวกและลบ Delegate กันภายในกันเอง
+
+และการใช้งาน Delegate ที่เป็น Anonymous Method โดยใช้งานแบบเพิ่มและลบ Delegate จากกัน
+
+ 
