@@ -1,4 +1,5 @@
 ### บันทึกผลที่ได้จากการรันคำสั่งในข้อ 3
+![image](https://github.com/Chaiyapa/03376836-OOP-2566-Lab-15/assets/144195729/1b473f5a-3169-4ed3-956d-092cd4b59498)
 
 การแสดงข้อความ "Hello World" จากการเรียกใช้งาน Action a
 
@@ -7,6 +8,7 @@
 การแสดงผลรวมของตัวเลข 8 และ 2 จากการเรียกใช้งาน Action sum โดยใช้ Lambda Expression
 
 ### บันทึกผลที่ได้จากการรันคำสั่งในข้อ 5
+![image](https://github.com/Chaiyapa/03376836-OOP-2566-Lab-15/assets/144195729/6f4489ac-a898-4ae6-847e-b4a3dacd4277)
 
 การแสดงข้อความ "Hello World" จากการเรียกใช้งาน Action a
 
