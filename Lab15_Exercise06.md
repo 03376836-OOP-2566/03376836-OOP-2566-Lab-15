@@ -44,3 +44,17 @@ dotnet run --project Lab15_Ex06
 ![image](https://github.com/AnchisaPhetnoi/03376836-OOP-2566-Lab-15/assets/144197034/458ced09-a919-4df0-a5ec-e44f00868937)
 
 7.อธิบายสิ่งที่พบในการทดลอง
+
+ทดลองใช้ anonymous method กับ delegate
+กำหนด delegate Square
+รับ parameter int 1 ตัว
+คืนค่า int
+กำหนด anonymous method
+รับ parameter int 1 ตัว
+คืนค่า int (ผลคูณของ x กับ x)
+กำหนดตัวแปร getSquare
+เก็บ anonymous method
+เรียกใช้งาน delegate getSquare
+ส่ง parameter int 1 ตัว
+เก็บผลลัพธ์ในตัวแปร sqr
+แสดงผลลัพธ์ sqr
