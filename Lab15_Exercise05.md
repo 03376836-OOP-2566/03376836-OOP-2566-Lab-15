@@ -56,3 +56,20 @@ dotnet run --project Lab15_Ex05
 ![image](https://github.com/AnchisaPhetnoi/03376836-OOP-2566-Lab-15/assets/144197034/86b38097-4ee1-4185-a830-e670e3967968)
 
 7.อธิบายสิ่งที่พบในการทดลอง
+
+ทดลองใช้ delegate กับ generic type T
+กำหนด delegate Add 2 ตัว
+Add<int> สำหรับ integer
+Add<string> สำหรับ string
+กำหนด method NumericSum
+รับ parameter int 2 ตัว
+คืนค่า int (ผลรวม)
+กำหนด method StringConcat
+รับ parameter string 2 ตัว
+คืนค่า string (การต่อ string)
+เรียกใช้งาน delegate sum
+ส่ง parameter int 2 ตัว
+แสดงผลลัพธ์ (sum ของ int)
+เรียกใช้งาน delegate con
+ส่ง parameter string 2 ตัว
+แสดงผลลัพธ์ (string ที่ต่อกัน)
