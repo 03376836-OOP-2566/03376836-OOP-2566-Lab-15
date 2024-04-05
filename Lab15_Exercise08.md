@@ -45,3 +45,8 @@ dotnet run --project Lab15_Ex08
 กรองเฉพาะตัวเลขคี่ (n % 2 == 1)
 เก็บจำนวนตัวเลขคี่ใน oddNumbers
 แสดงผลจำนวนตัวเลขคี่ (oddNumbers) และ array numbers
+โค้ดนี้ใช้ LINQ Count method กับ lambda expression
+กรองตัวเลขคี่จาก array numbers
+เก็บจำนวนตัวเลขคี่ใน oddNumbers
+แสดงผลจำนวนตัวเลขคี่ (oddNumbers)
+แสดง array numbers ทั้งหมด
