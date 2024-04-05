@@ -71,3 +71,10 @@ dotnet run --project Lab15_Ex04
 ![image](https://github.com/AnchisaPhetnoi/03376836-OOP-2566-Lab-15/assets/144197034/c51586f8-dd46-4e94-9b2a-f89910daffae)
 
 7.อธิบายสิ่งที่พบในการทดลอง
+
+พยายาม chaining delegate โดยใช้ + ผลลัพธ์คือ error CS0236
+Delegate chaining หลายตัว ไม่รองรับใน C#
+ลบ delegate ออกจาก chain โดยใช้ -= ผลลัพธ์คือ error CS0236
+เรียกใช้งาน delegate chain ผลลัพธ์คือ ไม่เกิดอะไรขึ้น (เพราะ error)
+การ chaining delegate ทำได้โดยวิธีอื่น เช่น สร้าง delegate ใหม่
+
