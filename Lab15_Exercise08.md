@@ -38,3 +38,10 @@ dotnet run --project Lab15_Ex08
 
 
 7.อธิบายสิ่งที่พบในการทดลอง
+
+ทดลองใช้ LINQ Count method กับ lambda expression
+กำหนด array numbers เก็บตัวเลข 10 ตัว
+ใช้ Count method กับ array numbers
+กรองเฉพาะตัวเลขคี่ (n % 2 == 1)
+เก็บจำนวนตัวเลขคี่ใน oddNumbers
+แสดงผลจำนวนตัวเลขคี่ (oddNumbers) และ array numbers
