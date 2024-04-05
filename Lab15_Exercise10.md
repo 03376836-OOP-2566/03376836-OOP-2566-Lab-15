@@ -48,3 +48,16 @@ dotnet run --project Lab15_Ex10
 ![image](https://github.com/AnchisaPhetnoi/03376836-OOP-2566-Lab-15/assets/144197034/221e85c5-19a4-462f-8d33-415dd1d5d53f)
 
 7.อธิบายสิ่งที่พบในการทดลอง
+
+โค้ดนี้ใช้ delegate Func เก็บ method ไว้เรียกใช้งาน
+method Add คำนวณผลรวม 2 ตัวเลข
+แสดงผลลัพธ์จาก Add(5, 9)
+method anonymous แปลง string เป็นตัวพิมพ์ใหญ่
+แสดงผลลัพธ์จาก convertToUpper("all lowercase characters")
+delegate Func เก็บ method/anonymous method
+method/anonymous method รับ parameter
+method/anonymous method ส่ง return value
+ตัวอย่างแสดง 2 method
+Add คำนวณ
+convertToUpper แปลง string
+delegate Func เพิ่มความยืดหยุ่นในการเขียนโปรแกรม
