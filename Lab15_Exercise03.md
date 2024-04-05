@@ -65,3 +65,19 @@ dotnet run --project Lab15_Ex03
 ![image](https://github.com/AnchisaPhetnoi/03376836-OOP-2566-Lab-15/assets/144197034/c0ee7fe8-c304-413b-b535-6435dbab97b0)
 
 7.อธิบายสิ่งที่พบในการทดลอง
+
+โค้ดนี้แสดงการใช้งาน Delegate กับ method 3 ประเภท: instance, static และ anonymous
+Delegate MyDelegate อ้างอิง method ที่รับ string parameter และไม่ return ค่า
+var im = new InstanceMethod(); สร้าง instance ของ InstanceMethod
+MyDelegate del = im.MethodA; กำหนด method MethodA ของ instance im ให้กับ del
+InvokeDelegate(del); เรียกใช้งาน MethodA ผ่าน del ส่ง "Hello World" ไป
+del = StaticMethod.MethodB; เปลี่ยน del ให้ อ้างอิง method MethodB ของ class StaticMethod
+InvokeDelegate(del); เรียกใช้งาน MethodB ผ่าน del ส่ง "Hello World" ไป
+del = (string message) => System.Console.WriteLine($"You are calling anonymous method with message {message}"); กำหนด anonymous method ให้กับ del
+InvokeDelegate(del); เรียกใช้งาน anonymous method ผ่าน del ส่ง "Hello World" ไป
+Delegate ช่วยให้ method ทำงานเหมือน object
+Delegate เพิ่มความยืดหยุ่นในการเรียกใช้งาน method
+โค้ดนี้แสดงวิธีใช้ Delegate กับ method 2 ประเภท
+โค้ดนี้ยังแสดงวิธีใช้ Delegate กับ anonymous method
+Anonymous method ช่วยให้เขียน method สั้น ๆ ได้โดยไม่ต้องสร้าง class
+Delegate ช่วยให้ code ยืดหยุ่นและสามารถปรับเปลี่ยนได้ง่าย
