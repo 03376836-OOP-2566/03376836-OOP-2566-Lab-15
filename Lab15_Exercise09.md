@@ -71,3 +71,8 @@ dotnet run --project Lab15_Ex09
 กำหนด delegate sum
 เก็บ anonymous method
 บวก parameter 2 ตัว
+พิมพ์ "Hello World"
+พิมพ์ "sum = 15"
+พิมพ์ "result = 10"
+แสดงผลลัพธ์จาก method อื่น (ไม่ระบุ)
+แสดงผลลัพธ์จาก method อื่น (ไม่ระบุ)
