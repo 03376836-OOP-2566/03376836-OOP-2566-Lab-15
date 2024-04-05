@@ -59,3 +59,15 @@ dotnet run --project Lab15_Ex09
 
 
 7.อธิบายสิ่งที่พบในการทดลอง
+
+ทดลองใช้ delegate Action
+กำหนด delegate a
+เก็บ method Print
+เรียกใช้ delegate a
+พิมพ์ "Hello World"
+กำหนด delegate s
+เก็บ method PrintSum
+ส่ง parameter 3 ตัว
+กำหนด delegate sum
+เก็บ anonymous method
+บวก parameter 2 ตัว
