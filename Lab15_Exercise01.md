@@ -52,3 +52,24 @@ dotnet run --project Lab15_Ex01
 
 
 7.อธิบายสิ่งที่พบในการทดลอง
+
+ประโยค public delegate void MyDelegate(string message) ประกาศ Delegate ชื่อ MyDelegate
+Delegate นี้สามารถอ้างอิงถึง method ที่
+ไม่ return ค่า (void)
+รับ parameter เพียงตัวเดียว เป็น string ชื่อ message
+
+กำหนด method ให้กับ Delegate
+MyDelegate myDel1 = new MyDelegate(MyMethod); สร้าง Delegate instance ชื่อ myDel1 และกำหนด method MyMethod ให้กับ Delegate ตัวนี้
+MyDelegate myDel2 = MyMethod; เป็นการกำหนด method MyMethod ให้กับ Delegate myDel2 โดยตรง โดยใช้ syntax ย่อ
+myDel1("Hello World"); เรียกใช้งาน method MyMethod ผ่าน Delegate myDel1 ส่ง "Hello World" ไปเป็น parameter
+myDel1.Invoke("Hello Mars"); เป็นการเรียกใช้งาน Delegate อีกวิธี โดยใช้ method Invoke
+myDel2("Hello Saturn"); เรียกใช้งาน method MyMethod ผ่าน Delegate myDel2
+static void MyMethod(string message) { System.Console.WriteLine(message); } เป็น method จริงที่ถูก Delegate อ้างอิง
+Method นี้ทำหน้าที่พิมพ์ข้อความที่รับมาบน console
+
+Delegate ทำหน้าที่เหมือนตัวอ้างอิง method ช่วยให้ method ทำงานเหมือน object
+เราสามารถสร้าง Delegate instance หลายตัว อ้างอิงถึง method เดียวกัน
+การเรียกใช้งาน Delegate คล้ายกับการเรียกใช้งาน method ทั่วไป
+Delegate ช่วยเพิ่มความยืดหยุ่นในการเรียกใช้งาน method และจัดการ event
+
+
