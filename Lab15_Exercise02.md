@@ -56,3 +56,14 @@ dotnet run --project Lab15_Ex02
 ![image](https://github.com/AnchisaPhetnoi/03376836-OOP-2566-Lab-15/assets/144197034/9f391d33-2a0e-4713-baee-a363c89f37a4)
 
 7.อธิบายสิ่งที่พบในการทดลอง
+
+โค้ดนี้แสดงการใช้งาน Delegate กับ method ทั้งแบบ instance และ static
+Delegate MyDelegate อ้างอิง method ที่รับ string parameter และไม่ return ค่า
+var im = new InstanceMethod(); สร้าง instance ของ InstanceMethod
+MyDelegate del = im.MethodA; กำหนด method MethodA ของ instance im ให้กับ del
+del("Hello World!"); เรียกใช้งาน MethodA ผ่าน del ส่ง "Hello World!" ไป
+del = StaticMethod.MethodB; เปลี่ยน del ให้ อ้างอิง method MethodB ของ class StaticMethod
+del("Hello Moon!"); เรียกใช้งาน MethodB ผ่าน del ส่ง "Hello Moon!" ไป
+Delegate ช่วยให้ method ทำงานเหมือน object
+Delegate เพิ่มความยืดหยุ่นในการเรียกใช้งาน method
+โค้ดนี้แสดงวิธีใช้ Delegate กับ method 2 ประเภท
