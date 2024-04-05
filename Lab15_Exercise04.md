@@ -72,9 +72,10 @@ dotnet run --project Lab15_Ex04
 
 7.อธิบายสิ่งที่พบในการทดลอง
 
-พยายาม chaining delegate โดยใช้ + ผลลัพธ์คือ error CS0236
-Delegate chaining หลายตัว ไม่รองรับใน C#
-ลบ delegate ออกจาก chain โดยใช้ -= ผลลัพธ์คือ error CS0236
+ทดสอบ chaining delegate ผ่าน method MethodA, MethodB และ anonymous method
+พยายาม chaining delegate โดยใช้ + ผลลัพธ์คือ error CS0236 เพราะ delegate chaining ไม่รองรับ
+ลบ delegate ออกจาก chain โดยใช้ -= ผลลัพธ์คือ error CS0236 เช่นเดียวกัน
 เรียกใช้งาน delegate chain ผลลัพธ์คือ ไม่เกิดอะไรขึ้น (เพราะ error)
 การ chaining delegate ทำได้โดยวิธีอื่น เช่น สร้าง delegate ใหม่
+โค้ดนี้ไม่สามารถรันได้ ต้องแก้ไข error ก่อน 
 
