@@ -42,3 +42,19 @@ dotnet run --project Lab15_Ex07
 ![image](https://github.com/AnchisaPhetnoi/03376836-OOP-2566-Lab-15/assets/144197034/1fcca7e8-1862-4e53-8631-ccce3349a11e)
 
 7.อธิบายสิ่งที่พบในการทดลอง
+
+กำหนด delegate Square
+รับ parameter int 1 ตัว
+คืนค่า int
+กำหนด lambda expression
+เก็บในตัวแปร getSquare
+รับ parameter int 1 ตัว
+คืนค่า int (ผลคูณของ x กับ x)
+กำหนดตัวแปร num เก็บค่า 9
+เรียกใช้งาน delegate getSquare
+ส่ง parameter num
+เก็บผลลัพธ์ในตัวแปร sqr
+แสดงผลลัพธ์ sqr
+
+
+ทำคล้ายกับการทดลองก่อนหน้านี้ แต่ตัวโค้ดในExercise จะสั้นกว่า เข้าใจง่ายกว่า
