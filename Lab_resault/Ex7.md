@@ -1,0 +1,2 @@
+![ex 15 7 1](https://github.com/65030034/03376836-OOP-2566-Lab-15/assets/144875017/4fc6f1ed-14a7-4761-bf8e-ac9d26d97e01)
+![ex 15 7 2](https://github.com/65030034/03376836-OOP-2566-Lab-15/assets/144875017/b77a7dc3-39d1-4c07-8360-a4928b5369f5)
